@@ -1,0 +1,32 @@
+﻿<ResourceDictionary 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="appTitle">Email Menager</system:String>
+    <!--Buttons-->
+    <system:String x:Key="btnLogin">Login</system:String>
+    <system:String x:Key="btnLogout">Logout</system:String>
+    <system:String x:Key="btnNewEmail">New Email</system:String>
+    <system:String x:Key="btnOk">Ok</system:String>
+    <system:String x:Key="btnCancel">Cancel</system:String>
+    <system:String x:Key="btnSend">Send</system:String>
+    <system:String x:Key="radioBtnEnglish">English</system:String>
+    <system:String x:Key="radioBtnPolish">Polish</system:String>
+    <!--Validation-->
+    <system:String x:Key="emailIncorrect">E-mail address is incorrect</system:String>
+    <system:String x:Key="fieldEmpty">This field can't be empty</system:String>
+    <system:String x:Key="messageToShort">Message has to be at least 10 characters long</system:String>
+    <!--Other strings-->
+    <system:String x:Key="received">Received</system:String>
+    <system:String x:Key="sent">Sent</system:String>
+    <system:String x:Key="from">From:</system:String>
+    <system:String x:Key="to">To:</system:String>
+    <system:String x:Key="email">Email:</system:String>
+    <system:String x:Key="username">Username:</system:String>
+    <system:String x:Key="password">Password:</system:String>
+    <system:String x:Key="message">Message:</system:String>
+    <system:String x:Key="title">Title:</system:String>
+    <system:String x:Key="incorrectLoginData">Username or password is incorrect</system:String>
+    
+</ResourceDictionary>
